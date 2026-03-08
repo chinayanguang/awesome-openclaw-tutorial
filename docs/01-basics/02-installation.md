@@ -418,8 +418,8 @@ npm -v
 **重要**：必须以**管理员身份**运行PowerShell。
 
 ```powershell
-# 安装最新稳定版
-npm install -g openclaw@latest
+# 安装最新稳定版（建议增加--verbose，看进度，要不以为卡死了）
+npm install -g openclaw@latest --verbose
 
 # 或安装汉化版
 npm install -g @qingchencloud/openclaw-zh@latest
